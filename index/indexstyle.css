@@ -1,0 +1,57 @@
+header
+{
+
+	background: rgba(255, 255, 255, 0.5);
+	height: 100px;
+	text-align: center;
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+img
+{
+	width: 200px;
+	height: 200px;
+	
+}
+
+nav
+{
+	align-self: center;
+	margin: auto;
+	text-align: center;
+	margin-top: 80px;
+	
+}
+
+a 
+{
+padding: 20px;
+}
+
+.all 
+{
+	width: 200px;
+	height: 200px;
+}
+
+.bandeau
+{
+	text-align: center;
+	margin-top: 90px;
+}
+
+.sign
+{
+	border: darkred 1px solid;
+	border-radius: 15%;
+	background-color: rgb(205, 0, 25);
+	color: black;
+	padding: 5px 5px;
+}
+
+p 
+{
+	margin-bottom: 10px;
+}
