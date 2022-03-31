@@ -1,0 +1,137 @@
+/* Feuille CSS */
+
+/* Importation d'une police via google */
+@import url(https://fonts.googleapis.com/css?family=Bigshot+One);
+
+@font-face {
+  font-family: "lunaregular";
+  src: url("luna-webfont.eot");
+  src: url("luna-webfont.eot?#iefix") format("embedded-opentype"),
+    url("luna-webfont.woff2") format("woff2"),
+    url("luna-webfont.woff") format("woff"),
+    url("luna-webfont.ttf") format("truetype"),
+    url("luna-webfont.svg#lunaregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+    font-family: "Bigshot One";
+}
+
+h1 {
+  text-align: center;
+  /* Sélection de la police avec des polices altenatives en cas d'incompatibilité	 */
+  font-family: "lunaregular", serif, sans-serif;
+  font-size: 2em;
+  color: rebeccapurple;
+}
+
+.name {
+  /*   Suppression du trait en h2   */
+  text-decoration: none;
+  /* Définition de la bordure	 */
+  border: 2px steelblue solid;
+  box-shadow: 4px 4px 2px steelblue;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-family: "arial", serif, sans-serif;
+  /* Coleur de la police	 */
+  color: steelblue;
+  text-shadow: 2px 2px 5px steelblue;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "comic sans ms", serif, sans-serif;
+}
+p {
+  text-align: justify;
+}
+
+/* permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer. */
+a:hover {
+  opacity: 0.6;
+}
+
+#face img {
+  border-radius: 50%;
+}
+
+#presentation {
+  background: rgba(0, 0, 0, 0.2);
+  border: black 2px solid;
+}
+
+.stage {
+  margin: auto;
+  padding: 10px;
+  font-family: "lunaregular", serif, sans-serif;
+}
+
+#face {
+  margin: auto;
+  padding: 12px;
+}
+
+#text {
+  /* 	marges extérieures */
+  margin: auto;
+  /* 	marges intérieures */
+  padding: 12px;
+  text-align: justify;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  /* Positionnement de "article" par rapport à aside	 */
+  flex: 6;
+  border: black 2px solid;
+  /* 	Image de fond */
+  background: url("https://i.postimg.cc/cL8WtsD2/desk.jpg");
+  /*  Calibrage de l'image de fond	  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.on_article {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 45%;
+  margin: auto;
+}
+
+aside {
+  flex: 1.3;
+  border: black 2px solid;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+}
+
+footer {
+  /* Utilisation de flexbox	 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black solid 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills h2 {
+  text-align: center;
+}
