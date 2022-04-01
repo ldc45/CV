@@ -12,123 +12,133 @@
     url("luna-webfont.ttf") format("truetype"),
     url("luna-webfont.svg#lunaregular") format("svg");
   font-weight: normal;
-  font-style: normal;}
+  font-style: normal;
+}
 
-  h1 {
-    text-align: center;
-    /* Sélection de la police avec des polices altenatives en cas d'incompatibilité	 */
-    font-family: "lunaregular", serif, sans-serif;
-    font-size: 2em;
-    color: rebeccapurple;
-  }
+h1 {
+  text-align: center;
+  /* Sélection de la police avec des polices altenatives en cas d'incompatibilité	 */
+  font-family: "lunaregular", serif, sans-serif;
+  font-size: 2em;
+  color: rebeccapurple;
+}
 
-  .name {
-    /*   Suppression du trait en h2   */
-    text-decoration: none;
-    /* Définition de la bordure	 */
-    border: 2px steelblue solid;
-    box-shadow: 4px 4px 2px steelblue;
-    width: 20%;
-    margin: auto;
-    text-align: center;
-  }
+.name {
+  /*   Suppression du trait en h2   */
+  text-decoration: none;
+  /* Définition de la bordure	 */
+  border: 2px steelblue solid;
+  box-shadow: 4px 4px 2px steelblue;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
 
-  h2 {
-    font-family: "arial", serif, sans-serif;
-    /* Coleur de la police	 */
-    color: steelblue;
-    text-shadow: 2px 2px 5px steelblue;
-    text-decoration: underline;
-  }
+h2 {
+  font-family: "arial", serif, sans-serif;
+  /* Coleur de la police	 */
+  color: steelblue;
+  text-shadow: 2px 2px 5px steelblue;
+  text-decoration: underline;
+}
 
-  h3 {
-    font-family: "comic sans ms", serif, sans-serif;
-  }
+h3 {
+  font-family: "comic sans ms", serif, sans-serif;
+  padding-left: 5px;
+}
 
-  p {
-    text-align: justify;
-  }
+ul li {
+  list-style: none;
+}
 
-  /* permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer. */
-  a:hover {
-    opacity: 0.6;
-  }
+p {
+  text-align: justify;
+}
 
-  #face img {
-    border-radius: 50%;
-  }
+/* permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer. */
+a:hover {
+  opacity: 0.6;
+}
 
-  #presentation {
-    background: rgba(0, 0, 0, 0.2);
-    border: black 2px solid;
-  }
+#face img {
+  border-radius: 50%;
+}
 
-  .stage {
-    margin: auto;
-    padding: 10px;
-    font-family: "lunaregular", serif, sans-serif;
-  }
+#presentation {
+  background: rgba(0, 0, 0, 0.2);
+  border: black 2px solid;
+}
 
-  #face {
-    margin: auto;
-    padding: 12px;
-  }
+.intro {
+  display: flex;
+}
 
-  #text {
-    /* 	marges extérieures */
-    margin: auto;
-    /* 	marges intérieures */
-    padding: 12px;
-    text-align: justify;
-  }
+.stage {
+  margin: auto;
+  padding: 10px;
+  font-family: "lunaregular", serif, sans-serif;
+}
 
-  section {
-    display: flex;
-    flex-direction: row;
-  }
+#face {
+  margin: auto;
+  padding: 12px;
+}
 
-  article {
-    /* Positionnement de "article" par rapport à aside	 */
-    flex: 6;
-    border: black 2px solid;
-    /* 	Image de fond */
-    background: url("https://i.postimg.cc/cL8WtsD2/desk.jpg");
-    /*  Calibrage de l'image de fond	  */
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#text {
+  /* 	marges extérieures */
+  margin: auto;
+  /* 	marges intérieures */
+  padding: 12px;
+  text-align: justify;
+}
 
-  .on_article {
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 45%;
-    margin: auto;
-  }
+.content {
+  display: flex;
+  flex-direction: row;
+}
 
-  aside {
-    flex: 1.3;
-    border: black 2px solid;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding-left: 10px;
-  }
+article {
+  /* Positionnement de "article" par rapport à aside	 */
+  flex: 6;
+  border: black 2px solid;
+  /* 	Image de fond */
+  background: url("https://i.postimg.cc/cL8WtsD2/desk.jpg");
+  /*  Calibrage de l'image de fond	  */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  footer {
-    /* Utilisation de flexbox	 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: black solid 2px;
-  }
+.on_article {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 45%;
+  margin: auto;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
+aside {
+  flex: 1.3;
+  border: black 2px solid;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+}
 
-  .skills {
-    display: flex;
-  }
+footer {
+  /* Utilisation de flexbox	 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black solid 2px;
+}
 
-  .skills h2 {
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills h2 {
+  text-align: center;
+}

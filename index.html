@@ -2,186 +2,211 @@
 <!DOCTYPE html>
 
 <html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Exemple de liaison CSS utilisée via un éditeur de texte standard -->
+    <link rel="stylesheet" type="text/css" href="forme.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- Titre de l'ongle de la page HTML	 -->
+    <title>Mon CV</title>
+  </head>
+  <!-- Début des données HTML visibles -->
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Exemple de liaison CSS utilisée via un éditeur de texte standard -->
-	<link rel="stylesheet" type="text/css" href="forme.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<!-- Titre de l'ongle de la page HTML	 -->
-	<title>Mon CV</title>
-</head>
-<!-- Début des données HTML visibles -->
+  <body>
+    <!-- En-tête -->
+    <header>
+      <h1>Mon premier Web-CV</h1>
+    </header>
 
-<body>
-	<!-- En-tête -->
-	<header>
-		<h1>Mon premier Web-CV</h1>
-	</header>
+    <div id="presentation">
+      <h2 class="name">AGESILAS Ludovic</h2>
+      <div class="intro">
+        <div id="face">
+          <a href="https://i.postimg.cc/Z5XvFvfF/photo-pro.jpg" target="_blank"
+            ><img
+              src="https://i.postimg.cc/W1fDTbdy/mini-photo-pro.jpg"
+              class="imageflottante"
+              alt="Photo de profil"
+              title="Photo"
+          /></a>
+        </div>
 
-	<div id="presentation">
-		<h2 class="name">AGESILAS Ludovic</h2>
-		<section>
-			<div id="face"><a href="https://i.postimg.cc/Z5XvFvfF/photo-pro.jpg" target="_blank"><img
-						src="https://i.postimg.cc/W1fDTbdy/mini-photo-pro.jpg" class="imageflottante"
-						alt="Photo de profil" title="Photo"></a></div>
+        <div id="text">
+          Après 8 ans en tant qu'infirmier j’ai décidé de me reconvertir dans le
+          numérique. Ce fût une décision réfléchie, en effet, l'année dernière
+          j'ai réalisé un bilan de compétences. Suite à cette réflexion j'ai
+          participé à une initiation au code.<br />
+          Enfin, pour concrétiser mon projet je me suis inscrit à une
+          préparation des métiers de l'informatique. À terme je désire devenir
+          Développeur web.
+        </div>
+      </div>
+    </div>
 
-			<div id="text">Après 8 ans en tant qu'infirmier j’ai décidé de me reconvertir dans le numérique. Ce fût une
-				décision réfléchie, en effet, l'année dernière j'ai réalisé un bilan de compétences. Suite à cette
-				réflexion j'ai participé à une initiation au code.<br> Enfin, pour concrétiser mon projet je me suis
-				inscrit à une préparation des métiers de l'informatique. À terme je désire devenir Développeur web.
-			</div>
-		</section>
-	</div>
+    <div class="content">
+      <!-- Côté gauche	 -->
+      <aside>
+        <h2>Contactez-moi</h2>
+        <ul>
+          <li>ldc45@outlook.fr</li>
+          <li>SARAN</li>
+          <li>32 ANS</li>
+          <li>Permis B</li>
+          <li>0772290433</li>
+        </ul>
 
-	<section>
-		<!-- Côté gauche	 -->
-		<aside>
-			<h2>Contactez-moi</h2>
-			<ul>
-				<li>ldc45@outlook.fr</li>
-				<li>SARAN</li>
-				<li>32 ANS</li>
-				<li>Permis B</li>
-				<li>0772290433</li>
-			</ul>
+        <h2>Atouts</h2>
+        <ul>
+          <li>Ténacité</li>
+          <li>Polyvalence</li>
+          <li>Empathie</li>
+        </ul>
 
-			<h2>Atouts</h2>
-			<ul>
-				<li>Ténacité</li>
-				<li>Polyvalence</li>
-				<li>Empathie</li>
-			</ul>
+        <h2>Langues</h2>
+        <ul>
+          <li>Anglais,Niveau B1</li>
+          <li>Espagnol, Niveau B1</li>
+        </ul>
 
-			<h2>Langues</h2>
-			<ul>
-				<li>Anglais,Niveau B1</li>
-				<li>Espagnol, Niveau B1</li>
-			</ul>
+        <h2>Centres d'intérêt</h2>
+        <ul>
+          <li>Karting</li>
+          <li>Astronomie</li>
+          <li>Canyonning</li>
+          <li>Création de sites web</li>
+          <li>Jeux vidéo</li>
+        </ul>
 
-			<h2>Centres d'intérêt</h2>
-			<ul>
-				<li>Karting</li>
-				<li>Astronomie</li>
-				<li>Canyonning</li>
-				<li>Création de sites web</li>
-				<li>Jeux vidéo</li>
-			</ul>
+        <h2>Voyages</h2>
+        <ul>
+          <li>Guyane, <em>Milieu isolé</em>, 2 semaines.</li>
+          <li>Sri Lanka, <em>Road trip</em>, 2 semaines.</li>
+        </ul>
+        <h2>Lectures actuelles</h2>
+        <ul>
+          <li><b>Oh my code :</b> Sonia Baidou</li>
+          <li>
+            <b>Lire magazine:</b> Dictionnaire pour ne plus faire de fautes.
+          </li>
+        </ul>
+      </aside>
 
-			<h2>Voyages</h2>
-			<ul>
-				<li>Guyane (milieu isolé)<br><em>Echange culturel</em>, 2 semaines.</li><br>
-				<li>Sri Lanka</br> <em>Road trip</em>, 2 semaines.</li>
-			</ul>
-			<h2>Lectures actuelles</h2>
-			<ul>
-				<li><b>Oh my code :</b> Sonia Baidou</li>
-				<li><b>Lire magazine:</b><br>Dictionnaire pour ne plus faire de fautes</li>
-			</ul>
-		</aside>
+      <!-- Côté droit -->
+      <article>
+        <div class="on_article">
+          <h2>Compétences</h2>
+          <ul>
+            <li>Premier geste d'assistance en informatique</li>
+            <li>Configurer une navigation internet sécurisée</li>
+            <li>Création de sites Web</li>
+            <li>Installer et configurer le système Windows</li>
+            <li>Upgrader un PC</li>
+            <li>Diagnostique et remplacement d'un composant PC défectueux</li>
+          </ul>
 
-		<!-- Côté droit -->
-		<article>
-			<div class="on_article">
-				<h2>Compétences</h2>
-				<ul>
-					<li>Premier geste d'assistance en informatique</li>
-					<li>Configurer une navigation internet sécurisée</li>
-					<li>Création de sites Web</li>
-					<li>Installer et configurer le système Windows</li>
-					<li>Upgrader un PC </li>
-					<li>Diagnostique et remplacement d'un composant PC défectueux </li>
-				</ul>
+          <h2>Expériences professionnelles</h2>
+          <h3>
+            Infirmier diplômé d’état<u>Anabiocentre</u> | Août 2018 - Juin 2021
+          </h3>
+          <ul>
+            <li>Accueil des patients</li>
+            <li>Gestion des dossiers</li>
+            <li>Prélèvements sanguins</li>
+          </ul>
 
-				<h2>Expériences professionnelles</h2>
-				<ul>
-					<h3>Infirmier diplômé d’état</h3>
-					<p><u>Anabiocentre</u> | Août 2018 - Juin 2021</p>
-					<li>Accueil des patients</li>
-					<li>Gestion des dossiers</li>
-					<li>Prélèvements sanguins</li>
+          <h3>
+            Infirmier de prévention et de veille sanitaire, <u>ARS</u>|
+            Septembre 2017 - Août 2018
+          </h3>
+          <ul>
+            <li>Utilisation de logiciels spécifiques (BK4, SI-VSS et SISAC)</li>
+            <li>Révision de procédures de veille sanitaires</li>
+            <li>Gestion des maladies à déclaration obligatoire</li>
+          </ul>
 
-					<h3>Infirmier de prévention et de veille sanitaire</h3>
-					<p><u>Agence régionale de santé</u> | Septembre 2017 - Août 2018</p>
-					<li>Utilisation de logiciels spécifiques (BK4, SI-VSS et SISAC)</li>
-					<li>Révision de procédures de veille sanitaires</li>
-					<li>Gestion des maladies à déclaration obligatoire</li>
+          <h3>
+            Infirmier diplômé d’état<u>Hôpital Bicêtre APHP</u>| Septembre 2013
+            - Juin 2017
+          </h3>
+          <ul>
+            <li>
+              Maintenance des appareillages (Mise à jour du défibrillateur,
+              paramétrage des glucomètre)
+            </li>
+            <li>Animation pluridisciplinaire</li>
+          </ul>
 
-					<h3>Infirmier diplômé d’état</h3>
-					<p><u>Hôpital Bicêtre APHP</u>| Septembre 2013 - Juin 2017</p>
-					<li>Maintenance des appareillages (Mise à jour du défibrillateur, paramétrage des glucomètre)</li>
-					<li>Animation pluridisciplinaire</li>
-				</ul>
+          <!-- DIV scindées en deux colonnes -->
+          <div class="skills">
+            <div>
+              <h2>Diplômes</h2>
+              <ul>
+                <li>Certificat ANSSI</li>
+                <li>Certificat Openclassrooms : HTML/CSS</li>
+                <li>Visa libre savoirs d'Anglais</li>
+                <li>Visa Libre Savoirs de Français</li>
+                <li>Licence en soins infirmiers</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Formations</h2>
+              <ul>
+                <li>Prépa Métiers de l'Informatique</li>
+                <li>Tech Workshop: HTML et CSS</li>
+                <li>nitiation au codage informatique</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
 
-				<!-- DIV scindées en deux colonnes -->
-				<div class="skills">
-					<div>
-						<h2>Diplômes</h2>
-						<ul>
-							<li><b>Certificat ANSSI</b></li>
-							<li><b>Certificat Openclassrooms : HTML/CSS</b></li>
-							<li><b>Visa libre savoirs d'Anglais</b></li>
-							<p>AFEC, Orléans | d'Octobre à Novembre 2021</p>
-							<li><b>Visa Libre Savoirs de Français</b></li>
-							<p>CFA, Orléans | Depuis Octobre 2021</p>
-							<li><b>Licence en soins infirmiers</b></li>
-							<p>IFSI de Tenon, Paris | 2010-2013</p>
+    <!-- Pied-de-page -->
+    <footer>
+      <h2>Technologies utilisées:</h2>
+      <div><img src="https://i.postimg.cc/Nf34KRfw/pngegg-7.png" alt="" /></div>
+      <h2>Environement de travail:</h2>
+      <div>
+        <img src="https://i.postimg.cc/C5KmtZvN/pngegg-10.png" alt="" />
+        <img src="https://i.postimg.cc/y8rc6gh8/pngegg-11.png" alt="" />
+        <img src="https://i.postimg.cc/C14K19ys/pngegg-12.png" alt="" />
+        <img src="https://i.postimg.cc/6610qpjk/pngegg-13.png" alt="" />
+        <img src="https://i.postimg.cc/8cQZqYXs/pngegg-14.png" alt="" />
+        <img src="https://i.postimg.cc/fbmy4JBF/pngegg-15.png" alt="" />
+        <img src="https://i.postimg.cc/k4gQM0xM/pngegg-16.png" alt="" />
+      </div>
 
-						</ul>
-					</div>
-
-					<div>
-						<h2>Formations</h2>
-						<ul>
-							<li><b>Prépa Métiers de l'Informatique</b></li>
-							<p>AFPA, Olivet | Depuis décembre 2021</p>
-
-							<li><b>Tech Workshop: HTML et CSS</b></li>
-							<p>Wild Code School | Février 2022</p>
-
-							<li><b>Initiation au codage informatique</b></li>
-							<p>Wild Code School| Novembre 2021</p>
-						</ul>
-
-					</div>
-
-				</div>
-			</div>
-		</article>
-
-	</section>
-
-	<!-- Pied-de-page -->
-	<footer>
-		<h2>Technologies utilisées:</h2>
-		<div><img src="https://i.postimg.cc/Nf34KRfw/pngegg-7.png"></div>
-		<h2>Environement de travail:</h2>
-		<div><img src="https://i.postimg.cc/C5KmtZvN/pngegg-10.png" alt="">
-			<img src="https://i.postimg.cc/y8rc6gh8/pngegg-11.png" alt="">
-			<img src="https://i.postimg.cc/C14K19ys/pngegg-12.png" alt="">
-			<img src="https://i.postimg.cc/6610qpjk/pngegg-13.png" alt="">
-			<img src="https://i.postimg.cc/8cQZqYXs/pngegg-14.png" alt="">
-			<img src="https://i.postimg.cc/fbmy4JBF/pngegg-15.png" alt="">
-			<img src="https://i.postimg.cc/k4gQM0xM/pngegg-16.png" alt="">
-		</div>
-
-		<!-- QR codes cliquables	 -->
-		<h2>Réseaux sociaux:</h2>
-		<figure>
-			<a href="https://postimg.cc/8JmND6V5" target='_blank'><img src='https://i.postimg.cc/BZNzg3hp/qr-anssi.png'
-					alt='Certificat-ANSSI-page-0001' /></a>
-			<a href="http://www.linkedin.com/in/ludovic-a-b5896b230" target='_blank'><img
-					src="https://i.postimg.cc/YCJWQCtW/qr-in.png" alt="QR code Linkedin"></a>
-			<a href="https://github.com/ldc45" target='_blank'><img src="https://i.postimg.cc/5y64P83N/qr-git.png"
-					alt="QR code Github"></a>
-			<a href='https://postimg.cc/d7xJ4yKZ' target='_blank'><img src="https://i.postimg.cc/vZdynJpm/qr-ocr.png"
-					alt="QR code OpenClassrooms"></a>
-		</figure>
-	</footer>
-
-</body>
-<!-- Fin des données HTML visibles -->
-
+      <!-- QR codes cliquables	 -->
+      <h2>Réseaux sociaux:</h2>
+      <figure>
+        <a href="https://postimg.cc/8JmND6V5" target="_blank"
+          ><img
+            src="https://i.postimg.cc/BZNzg3hp/qr-anssi.png"
+            alt="Certificat-ANSSI-page-0001"
+        /></a>
+        <a href="http://www.linkedin.com/in/ludovic-a-b5896b230" target="_blank"
+          ><img
+            src="https://i.postimg.cc/YCJWQCtW/qr-in.png"
+            alt="QR code Linkedin"
+        /></a>
+        <a href="https://github.com/ldc45" target="_blank"
+          ><img
+            src="https://i.postimg.cc/5y64P83N/qr-git.png"
+            alt="QR code Github"
+        /></a>
+        <a href="https://postimg.cc/d7xJ4yKZ" target="_blank"
+          ><img
+            src="https://i.postimg.cc/vZdynJpm/qr-ocr.png"
+            alt="QR code OpenClassrooms"
+        /></a>
+      </figure>
+    </footer>
+  </body>
+  <!-- Fin des données HTML visibles -->
 </html>
